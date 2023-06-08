@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="aJ(jyH8-8*_!b5sq@ED8">mySprite</variable><variable type="KIND_SpriteKind" id="iunb7yYzxH$h;PZ)ZSq?">Player</variable><variable type="KIND_SpriteKind" id="F)iqhLN%g)1}STJPc*H2">Projectile</variable><variable type="KIND_SpriteKind" id="|qM:XeM3ixVT*x_F64uz">Food</variable><variable type="KIND_SpriteKind" id="KQ;+`n6CMV/u*FiH%OB^">Enemy</variable></variables><block type="pxt-on-start" id="$B]=aA:!rzMibwI7jUiQ" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="5@!^,lfwN249hEA/Yv?|"><field name="VAR" id="aJ(jyH8-8*_!b5sq@ED8">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="ZtgWE79*B.U?i/)U?P^u"><value name="img"><shadow type="screen_image_picker" id="s%I*9:oY2jAZ0g!A@|8y"><field name="img">img`
+. . . . . . 7 7 7 7 7 7 . . . . 
+. . . . . 7 7 7 7 7 7 7 7 7 . . 
+. . . . 7 c 3 3 3 3 3 3 c 3 . . 
+. . . 7 3 c d 3 3 3 3 3 c 3 7 . 
+. . . 7 3 3 d 3 3 3 3 3 c 3 7 . 
+. . . f 3 3 d 3 3 3 3 3 3 3 f . 
+. . . f 3 3 d 3 3 3 3 3 3 3 f . 
+. . . f 3 c 3 d d 3 3 3 c 3 f . 
+. . . a 3 c a c c c c a c 3 a . 
+. . . a 3 a c b b b b c a 3 a . 
+. . . a 3 a b b b b b b a 3 a . 
+. . . a a a a a a a a a a a a . 
+. . . f a d a a a a a a d a f . 
+. . . f a 3 d a a a a d 3 a f . 
+. . . f f a a a a a a a a f f . 
+. . . . f f . . . . . . f f . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"s%I*9:oY2jAZ0g!A@|8y"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="?rYaH2`HJC9M2r7jB9]v"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="a=)+!Q0`7h;!#|Bz6G+Q"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="J]uJB4}4bOh{ZlV;F7CB"><field name="VAR" id="aJ(jyH8-8*_!b5sq@ED8">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="=IGP`et3F((Hd_kSU%?L"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="A9`q_h+%ByOKQ0-~]AP;"><field name="speed">100</field></shadow></value></block></next></block></statement></block><block type="keyonevent" id="ypg@k~3lT}-7sx;-XbnM" x="500" y="360"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>
